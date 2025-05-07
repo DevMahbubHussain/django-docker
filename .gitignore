@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+env/
+venv/
+
+# Environment variables
+.env
+.env.*
+
+# Django SQLite DB
+db.sqlite3
+
+# VS Code settings
+.vscode/
+
+# Migrations (optional, dev only)
+**/migrations/*.pyc
+**/migrations/__pycache__/
+
+# Docker
+*.log
+*.pid
+*.db
+*.sock
